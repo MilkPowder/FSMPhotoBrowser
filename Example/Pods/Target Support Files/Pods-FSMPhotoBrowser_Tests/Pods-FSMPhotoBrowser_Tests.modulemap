@@ -1,0 +1,6 @@
+framework module Pods_FSMPhotoBrowser_Tests {
+  umbrella header "Pods-FSMPhotoBrowser_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

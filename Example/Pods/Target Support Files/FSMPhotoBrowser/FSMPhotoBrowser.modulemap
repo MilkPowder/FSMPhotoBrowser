@@ -1,0 +1,6 @@
+framework module FSMPhotoBrowser {
+  umbrella header "FSMPhotoBrowser-umbrella.h"
+
+  export *
+  module * { export * }
+}

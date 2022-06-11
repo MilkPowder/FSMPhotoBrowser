@@ -1,0 +1,16 @@
+PODS:
+  - FSMPhotoBrowser (0.1.0)
+
+DEPENDENCIES:
+  - FSMPhotoBrowser (from `../`)
+
+EXTERNAL SOURCES:
+  FSMPhotoBrowser:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FSMPhotoBrowser: f0f9abc7ea82ee21c1f0ba79da34877c60affbb8
+
+PODFILE CHECKSUM: ec13a047391ae354013f81488f27a449fcf2dbab
+
+COCOAPODS: 1.11.3
