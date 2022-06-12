@@ -27,8 +27,8 @@
 "exceededMaxVideoSelectCount" = "最多只能选择%ld个视频";
 "lessThanMinVideoSelectCount" = "最少选择%ld个视频";
 
-"noCameraAuthority" = "请在iPhone的\"设置 > 隐私 > 相机\"选项中，允许%@访问你的相机，您才可以拍摄您的牙齿情况和向我们发送您的视频，以便我们了解您最新的矫正进度。";
-"noPhotoLibratyAuthority" = "请在iPhone的\"设置 > 隐私 >照片\"选项中，允许%@访问你的照片，您才可以使用相册中的图片更换头像和向我们发送图片和视频。";
+"noCameraAuthority" = "请在iPhone的\"设置 > 隐私 > 相机\"选项中，允许%@访问您的相机，您才可以拍摄您的牙齿情况和向我们发送您的视频，以便我们了解您最新的矫正进度。";
+"noPhotoLibratyAuthority" = "请在iPhone的\"设置 > 隐私 >照片\"选项中，允许%@访问您的照片，您才可以使用相册中的图片更换头像和向我们发送图片和视频。";
 "noMicrophoneAuthority" = "无法录制声音，前往\"设置 > %@\"中打开麦克风权限，您才可以向我们发送语音，以便我们了解您最新的矫正进度。";
 "cameraUnavailable" = "相机不可用";
 "keepRecording" = "继续拍摄";
