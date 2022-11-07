@@ -265,10 +265,10 @@ open class ZLCustomCamera: UIViewController, CAAnimationDelegate {
         
         self.takedImageView.backgroundColor = .black
         self.takedImageView.isHidden = true
-        self.takedImageView.contentMode = .scaleAspectFit
+        self.takedImageView.contentMode = .scaleAspectFill
         self.view.addSubview(self.takedImageView)
         
-        self.focusCursorView.contentMode = .scaleAspectFit
+        self.focusCursorView.contentMode = .scaleAspectFill
         self.focusCursorView.clipsToBounds = true
         self.focusCursorView.frame = CGRect(x: 0, y: 0, width: 70, height: 70)
         self.focusCursorView.alpha = 0
@@ -428,9 +428,9 @@ open class ZLCustomCamera: UIViewController, CAAnimationDelegate {
         
         let preset = ZLPhotoConfiguration.default().cameraConfiguration.sessionPreset.avSessionPreset
         if self.session.canSetSessionPreset(preset) {
-            self.session.sessionPreset = preset
+            self.session.sessionPreset = .hd4K3840x2160
         } else {
-            self.session.sessionPreset = .hd1280x720
+            self.session.sessionPreset = .hd4K3840x2160
         }
         
         self.movieFileOutput = AVCaptureMovieFileOutput()
@@ -455,7 +455,7 @@ open class ZLCustomCamera: UIViewController, CAAnimationDelegate {
         self.session.commitConfiguration()
         // 预览layer
         self.previewLayer = AVCaptureVideoPreviewLayer(session: self.session)
-        self.previewLayer?.videoGravity = .resizeAspect
+        self.previewLayer?.videoGravity = .resizeAspectFill
         self.previewLayer?.opacity = 0
         self.view.layer.masksToBounds = true
         self.view.layer.insertSublayer(self.previewLayer!, at: 0)
